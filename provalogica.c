@@ -19,6 +19,13 @@ int main(){
              scanf("%d",&opcao);
              
               if (opcao == 1){
+                 while(opcao!=0){
+         printf("aperte 0 para voltar para o menu principal\n");
+          printf("aperte 1 para imprimir a lista de contaros\n");
+           printf("aperte 2 para criar um novo contato\n");
+            printf("aperte 3 para ligar para o bombeiro\n");
+             scanf("%d",&opcao);
+
                    printf("ligando para a policia\n");
                      printf("aperte 0 para desligar a ligação\n");
                       scanf("%d",&opcao2);
